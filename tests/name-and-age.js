@@ -1,11 +1,11 @@
-var Person = require('../PageModels/Name.js');
+var Person = require('../PageModels/Person.js');
 
 function testNameAndAge() {
     var nameAndAge = new Person(this.name, this.age);
 
     nameAndAge
-        .sayName('John')
-        .sayAge('25');
+        .getName('John')
+        .getAge('25');
 }
 
 testNameAndAge();
