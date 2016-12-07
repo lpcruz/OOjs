@@ -6,13 +6,13 @@ class Person {
         this.age = age;
  }
 
-    sayName(name) {
+    getName(name) {
         console.log(name);
 
         return this;
     }
 
-    sayAge(age) {
+    getAge(age) {
         console.log(age);
 
         return this;
